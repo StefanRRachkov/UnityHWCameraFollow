@@ -22,7 +22,7 @@ public class CameraMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*If you want to see smooth camera movement comment 23th line and uncomment the rest*/
+        /*If you want to see smooth camera movement comment next line and uncomment the rest*/
         transform.position = player.transform.position + offset;
         
         // Thanks to Brackeys 
